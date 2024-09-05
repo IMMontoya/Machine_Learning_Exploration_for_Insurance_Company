@@ -1,5 +1,15 @@
 # Machine Learning Exploration for Insurance Company
 
+## Table of Contents
+
+- [Notebook](explore_ml_for_insurance.ipynb)
+- [Project Description](#description)
+- [Dataset Description](#dataset-description)
+- [Objectives](#objectives)
+- [Conclusions](#conclusions)
+- [Recommendations](#recommendations)
+- [Libraries Used](#libraries-used)
+
 ## Description
 
 The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning. This project will evaluate that possibility by completing four tasks.
@@ -78,3 +88,12 @@ The evaluation metrics of the model remained the same between the original datas
 ## Recommendations
 
 Based on these findings, the Sure Tomorrow insurance company can reliably employ a linear regression model to predict the number of insurance benefits with high accuracy, as evidenced by an RMSE of 0.34 and an R2 of 0.66. Additionally, the kNN classifier, particularly with scaled data, proves to be an effective tool for determining the likelihood of a customer receiving benefits, achieving an F1 score of .97. The company's data protection measures, through obfuscation, do not affect the model's performance, ensuring both security and accuracy in their predictive analytics.
+
+## Libraries Used
+
+Python 3.10.9  
+numpy=1.25.2  
+pandas=2.0.3  
+seaborn=0.13.1  
+IPython=8.20.0  
+sklearn=1.2.2
